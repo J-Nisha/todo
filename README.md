@@ -54,15 +54,7 @@ The project consists of the following files:
 ---
 
 ## OUTPUT
-
-The To-Do application allows users to:
-- Add new tasks.
-- Mark tasks as completed.
-- Delete tasks.
-- Manage daily tasks efficiently through a simple and interactive interface.
-
----
-
+![alt text](<todo image.png>)
 ## RESULT
 
 The program for creating a To-Do Application using JavaScript was executed successfully, and all the required functionalities were implemented and verified.
