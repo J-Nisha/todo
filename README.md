@@ -44,14 +44,120 @@ Upload the project to GitHub Pages for free hosting.
 ---
 
 ## PROGRAM
+index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-The project consists of the following files:
+<header>
+    <h1>TechZone Store</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
 
-- `index.html` – Defines the structure of the To-Do application.
-- `style.css` – Provides styling and responsive design.
-- `script.js` – Implements the application logic and functionality.
+<section class="hero">
+    <h2>Best Electronics at Affordable Prices</h2>
+    <p>Shop laptops, smartphones, accessories, and more.</p>
+    <button>Shop Now</button>
+</section>
 
----
+<section class="products">
+    <div class="card">
+        <h3>Laptop</h3>
+        <p>Starting from ₹49,999</p>
+    </div>
+
+    <div class="card">
+        <h3>Smartphone</h3>
+        <p>Starting from ₹14,999</p>
+    </div>
+
+    <div class="card">
+        <h3>Headphones</h3>
+        <p>Starting from ₹1,999</p>
+    </div>
+</section>
+
+<footer>
+    <p>Name: Nisha J</p>
+    <p>Register Number:212223040133</p>
+</footer>
+
+</body>
+</html>
+```
+CSS
+```
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#1e3a8a;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:60px;
+    background:#dbeafe;
+}
+
+button{
+    padding:10px 20px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:200px;
+    text-align:center;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+```
+
 
 ## OUTPUT
 ![alt text](<todo image.png>)
